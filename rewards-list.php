@@ -22,6 +22,10 @@ $row = all("rewards");
             list-style-type: none;
         }
 
+        body {
+            background: #ffd954;
+        }
+
         a {
             text-decoration: none;
             display: inline-block;
@@ -48,26 +52,41 @@ $row = all("rewards");
 
         #main {
             width: 1100px;
-            height: 600px;
-            border-radius: 20px;
-            border: 1px solid #ccc;
-            margin: 20px auto;
+            height: 785px;
+            margin: 50px auto;
             padding: 20px;
+            background-image: url(./images/piggybank.png);
+            position: relative;
+        }
+        
+        #list {
+            width: 970px;
+            height: 600px;
+            position: absolute;
+            margin: 70px 15px;
+            padding: 20px;
+            overflow: auto;
         }
 
         #index {
-            display: flex;
             width: 110px;
             height: 60px;
             text-align: center;
-            margin: 0 auto;
+            margin: -60px 900px;
             padding: 10px;
+            position: absolute;
+            bottom: 10px;
+        }
+
+        .indexbtncolor {
+            background: #65c1ac;
+            border: 3px solid #7b7776;
         }
     </style>
 </head>
 <body>
-
 <div id="main">
+    <div id="list">
     <table>
     <tr style="border-bottom: 2px solid #ccc">
         <td>年份</td>
@@ -103,7 +122,8 @@ $row = all("rewards");
     }
 ?>
     </table>
+    </div>    
+<div id="index"><a class="indexbtncolor" href="index.php">回首頁</a></div>
 </div>
-    <div id="index"><a href="index.php">回首頁</a></div>
 </body>
 </html>

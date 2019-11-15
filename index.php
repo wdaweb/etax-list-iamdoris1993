@@ -16,31 +16,32 @@
         }
 
         body {
-            background: #FFFFAB;
+            background: #ffd954;
         }
 
         p{
             margin: 30px auto;
-            color: #68adcf;
+            color: #2b90d9;
             font-size: 40px;
         }
 
         a {
             display: inline-block;
             width: 130px;
-            height: 50px;
+            height: 60px;
             border-radius: 15px;
             background: #f7efb8;
             text-decoration: none;
             color: gray;
-            padding: 4px;
-            box-shadow: 0px 0px 3px grey;
+            padding: 10px;
+            box-shadow: 1px 1px 2px black;
+            border: 4px solid #4ea1d3;
+            font-size: 25px;
         }
 
         #main {
             width: 1200px;
             height: 800px;
-            border: 1px solid #ccc;
             border-radius: 20px;
             margin:15px auto 0 auto;
             box-shadow: 3px 3px 10px #7C7877;
@@ -50,7 +51,7 @@
         #left {
             width: 60%;
             height: 100%;
-            background: #68adcf;
+            background: #2b90d9;
             border-radius: 20px 0 0 20px;
             position: absolute;
             left: 0;
@@ -74,7 +75,6 @@
             width: 450px;
             height: 450px;
             margin: 70px auto;
-            filter: drop-shadow(0px 0px 3px grey);
         }
         
         input[type="text"] {
@@ -88,7 +88,7 @@
         input[type="submit"],
         input[type="reset"] {
             padding: 5px 15px; 
-            background: #68adcf; 
+            background: #2b90d9; 
             color: white;
             border: 0 none;
             cursor: pointer;

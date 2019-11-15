@@ -15,13 +15,14 @@
         }
 
         body {
-            background: #FFFF96;
+            background: #ffd954;
         }
 
         p {
             text-align: center;
             margin: 100px auto 30px auto;
             font-size: 36px;
+            color: #5e5958;
         }
 
         a {
@@ -96,6 +97,11 @@
             background: #a3a1a1;
             box-shadow: 1px 1px 1px #ccc;
         }
+
+        .indexbtncolor {
+            background: #65c1ac;
+            border: 3px solid #7b7776;
+        }
     </style>
 </head>
 <body>
@@ -166,7 +172,7 @@
         </table>
         </div>
     </div>
-        <div id="index"><a href="index.php">回首頁</a></div>
+        <div id="index"><a class="indexbtncolor" href="index.php">回首頁</a></div>
     </div>
     
 
